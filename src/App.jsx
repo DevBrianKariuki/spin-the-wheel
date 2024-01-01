@@ -1,9 +1,24 @@
 import React from 'react'
+import Layout from './layout/Layout'
+import { Home, Profile, Notifications, NotFound } from './pages'
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path='/' element={ <Layout /> }>
+      <Route index element={<Home/>}/>
+      <Route path='profile' element={<Profile/>}/>
+      <Route path='notifications' element={<Notifications/>}/>
+
+      <Route path='*' element={<NotFound />} />
+    </Route>
+  )
+)
 
 function App() {
 
   return (
-    <div className=''>Hello</div>
+    <RouterProvider router={router} />
   )
 }
 
