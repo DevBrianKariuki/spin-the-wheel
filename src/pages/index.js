@@ -5,6 +5,7 @@ import NotFound from './NotFound'
 import Register from './Register'
 import Login from './Login'
 import Verify from './Verify'
+import Game from './Game'
 
 export {
     Home,
@@ -13,5 +14,6 @@ export {
     NotFound,
     Login,
     Register,
-    Verify
+    Verify,
+    Game
 }

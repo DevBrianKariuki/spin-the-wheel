@@ -8,10 +8,10 @@ export default {
     extend: {
       colors:{
         primary:"#1a2c38",
-        secondary:"#23313d",
+        secondary:"#15242e",
         white: '#fff',
         gray: "#",
-        accentColor: "#1ac238"
+        accentColor: "#fff000"
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif']

@@ -23,7 +23,7 @@ const Verify = () => {
           </div>
           <input type="password" placeholder=''  className='text-sm focus:ring-1 focus:ring-accentColor  font-inter text-white focus:outline-none  bg-primary my-2 py-3 rounded-lg px-3' />
           <p className='text-neutral-400 text-xs font-inter'>Enter your password </p>
-          <button className='bg-accentColor font-inter text-white py-2 rounded-lg  mt-4' type="submit" classNam>Verify and Login</button>
+          <button className='bg-accentColor font-inter text-primary font-medium  py-2 rounded-lg  mt-4' type="submit" classNam>Verify and Login</button>
           <div className='flex items-center pt-5  gap-2'>
             <p className='font-inter text-xs text-neutral-400 text-center'>By clicking Verify and Log In you confirm to have read in detail, understood and agreed to the Terms and Conditions and also that you are over 18 years of age.</p>
           </div>

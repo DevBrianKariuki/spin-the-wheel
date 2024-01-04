@@ -33,7 +33,7 @@ const Register = () => {
             <input type='checkbox'  className='w-10 h-10 cursor-pointer rounded-lg bg-secondary focus:ring-0 focus:outline-none' />
             <p className='font-inter text-xs text-neutral-400'>By clicking Register you confirm to have read in detail, understood and agreed to the Terms and Conditions, the Privacy policy and also that you are over 18 years of age.</p>
           </div>
-          <button className='bg-accentColor font-inter text-white py-2 rounded-lg  mt-4' type="submit">Register</button>
+          <button className='bg-accentColor font-inter text-primary font-medium   py-2 rounded-lg  mt-4' type="submit">Register</button>
         </div>
         <Link to={'/login'}  >
             <p className='text-white hover:text-accentColor  font-semibold text-center font-inter py-4'>Already have an acount? Login here</p>

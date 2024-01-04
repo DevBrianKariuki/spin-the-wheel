@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav className='flex items-center shadow-lg justify-between w-full px-6 md:px-16 py-5 bg-primary'>
-        <div className='text-white cursor-pointer font-bold font-inter'>
+        <div className='text-white hover:text-accentColor  cursor-pointer font-bold font-inter'>
             <Link to={'/'}>
                 SHINDASASA
             </Link>
@@ -20,7 +20,7 @@ const Navbar = () => {
                 </button>
             </Link>
             <Link to={'register'}>
-                <button className='py-2 px-4 rounded-lg cursor-pointer text-sm  bg-accentColor text-white font-inter'>
+                <button className='py-2 px-4 rounded-lg cursor-pointer text-sm  bg-accentColor text-primary font-inter'>
                     Register
                 </button>
             </Link>

@@ -14,13 +14,13 @@ const Home = () => {
                   Click to play demo
             </Link>
             or
-              <Link className='py-3 flex items-center justify-center  px-5 rounded-md w-full  text-sm bg-accentColor'  to={'/login'}>
+              <Link className='py-3 flex items-center justify-center text-primary font-medium   px-5 rounded-md w-full  text-sm bg-accentColor'  to={'/login'}>
                   Login for real play
               </Link>
           </div>
         </div>
-        <div className='md:w-[50%] p-3 w-full flex flex-col'>
-          <img src={HomePhoto} className='object-contain' />
+        <div className='md:w-[50%] items-center justify-center  p-3 w-full flex flex-col'>
+          <img src={HomePhoto} className='object-contain w-[3500px] h-[350px] ' />
         </div>
       </div>
     </div>

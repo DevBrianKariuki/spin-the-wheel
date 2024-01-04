@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from './layout/Layout'
-import { Home, Profile, Notifications, NotFound, Login, Register, Verify } from './pages'
+import { Home, Profile, Notifications, NotFound, Login, Register, Verify, Game } from './pages'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter(
@@ -12,6 +12,7 @@ const router = createBrowserRouter(
       <Route path='login' element={<Login/>}/>
       <Route path='register' element={<Register/>}/>
       <Route path='verify' element={<Verify/>}/>
+      <Route path='game' element={<Game/>}/>
 
       <Route path='*' element={<NotFound />} />
     </Route>
