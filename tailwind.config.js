@@ -10,7 +10,7 @@ export default {
         primary:"#1a2c38",
         secondary:"#15242e",
         white: '#fff',
-        gray: "#",
+        gray: "#999",
         accentColor: "#fff000"
       },
       fontFamily: {
