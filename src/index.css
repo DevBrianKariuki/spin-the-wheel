@@ -6,6 +6,24 @@
 @tailwind components;
 @tailwind utilities;
 
+.s1{
+    height: 50%;
+    width: 105px;
+    position: absolute;
+    clip-path: polygon(100% 0, 50% 100%, 0 0);
+    transform: translateX(-50%);
+    transform-origin: bottom;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: serif;
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: bold;
+    left: 108px;
+}
+
 
 ::-webkit-scrollbar{
     width: 8px;
