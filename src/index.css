@@ -10,7 +10,7 @@
     height: 50%;
     width: 105px;
     position: absolute;
-    clip-path: polygon(100% 0, 50% 100%, 0 0);
+    clip-path: polygon(100%  0, 50%  100%, 0 0);
     transform: translateX(-50%);
     transform-origin: bottom;
     text-align: center;
@@ -21,7 +21,7 @@
     font-size: 20px;
     color: aliceblue;
     font-weight: bold;
-    left: 108px;
+    left: 68px;
 }
 
 

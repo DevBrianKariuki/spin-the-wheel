@@ -29,7 +29,7 @@ const Login = () => {
             <input type='checkbox'  className='w-5 h-5 cursor-pointer rounded-lg bg-secondary focus:ring-0 focus:outline-none' />
             <p className='font-inter text-sm text-white'>Keep me logged in</p>
           </div>
-          <button className='bg-accentColor font-inter text-primary font-medium  py-2 rounded-lg  mt-4' type="submit" classNam>Login</button>
+          <button className='bg-accentColor font-inter text-primary font-medium  py-2 rounded-lg  mt-4' type="submit">Login</button>
         </div>
         <Link to={'/register'}  >
             <p className='text-white hover:text-accentColor  font-semibold text-center font-inter py-4'>Don't have an account? Register here</p>

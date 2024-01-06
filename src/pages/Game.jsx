@@ -73,7 +73,7 @@ const Game = () => {
                     <img src='../../public/vite.svg' alt='arrow' className=''  />
                 </span>
                 <div id='temp' className='flex items-center justify-center relative'>
-                    <div id='wheel' className='w-[350px] h-[350px] bg-[#ccc] rounded-full border-[16px] border-[#263742] relative overflow-hidden transition-5'>
+                    <div id='wheel' className='w-[350px] h-[350px] flex flex-col  bg-[#ccc] rounded-full border-[16px] border-[#263742] relative overflow-hidden transition-5'>
                         {
                             wheel
                         }
